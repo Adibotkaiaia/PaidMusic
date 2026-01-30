@@ -23,7 +23,7 @@ from ShrutixMusic.utils.inline import help_pannel, private_panel, start_panel
 from config import BANNED_USERS
 from strings import get_string
 
-from pyrogram import filters
+#from pyrogram import filters
 
 @nand.on_message(filters.command("repo"))
 async def block_repo(_, message):
@@ -156,5 +156,6 @@ async def welcome(client, message: Message):
                 await message.stop_propagation()
         except Exception as ex:
             print(ex)
+
 
 
