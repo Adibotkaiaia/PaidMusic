@@ -16,13 +16,13 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI")
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600))
 
 # Chat id of a group for logging bot's activities
 LOGGER_ID = int(getenv("LOGGER_ID"))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 7574330905))
+OWNER_ID = int(getenv("OWNER_ID", 8400280060))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -83,16 +83,16 @@ START_IMG_URL = getenv(
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://i.ibb.co/vC5PfT3G/x.jpg"
 )
-PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
-STATS_IMG_URL = "https://te.legra.ph/file/e906c2def5afe8a9b9120.jpg"
-TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
-TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
-STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
-SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
-YOUTUBE_IMG_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/37d163a2f75e0d3b403d6.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/b35fd1dfca73b950b1b05.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/95b3ca7993bbfaf993dcb.jpg"
+PLAYLIST_IMG_URL = "https://i.ibb.co/spTJ0S6T/x.jpg"
+STATS_IMG_URL = "https://i.ibb.co/27GCPYm2/x.jpg"
+TELEGRAM_AUDIO_URL = "https://i.ibb.co/vC5PfT3G/x.jpg"
+TELEGRAM_VIDEO_URL = "https://i.ibb.co/ynsHw8sm/x.jpg"
+STREAM_IMG_URL = "https://i.ibb.co/spTJ0S6T/x.jpg"
+SOUNCLOUD_IMG_URL = "https://i.ibb.co/27GCPYm2/x.jpg"
+YOUTUBE_IMG_URL = "https://i.ibb.co/vC5PfT3G/x.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://i.ibb.co/ynsHw8sm/x.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://i.ibb.co/27GCPYm2/x.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://i.ibb.co/ynsHw8sm/x.jpg"
 
 
 def time_to_seconds(time):
