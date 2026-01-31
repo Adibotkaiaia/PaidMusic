@@ -8,7 +8,7 @@ import config
 from ShrutixMusic import LOGGER, nand, userbot
 from ShrutixMusic.core.call import Shruti
 from ShrutixMusic.misc import sudo
-from ShrutixMusic.plugins import ALL_MODULES
+#from ShrutixMusic.plugins import ALL_MODULES
 from ShrutixMusic.utils.database import get_banned_users, get_gbanned
 from config import BANNED_USERS
 
